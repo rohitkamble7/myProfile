@@ -4,15 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education Details</title>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+
+<style>
+
+    h2{
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #branch{
+        font-family: 'Roboto', sans-serif;
+    }
+    #headContent{
+        font-family: 'Roboto', sans-serif; 
+    }
+    #myDetails{
+        font-family: 'Poppins', sans-serif;
+    }
+    #fieldset{
+        font-family: 'Roboto', sans-serif;
+    }
+</style>
+    </head>
 <body>
     <h2>ACADEMIC QUALIFICATION</h2>
-    <strong><u>BRANCH-Information Technology</u></strong> <br><br>
+    <strong id="branch"><u>BRANCH-Information Technology</u></strong> <br><br>
     <fieldset>
-        <legend>My Education Details</legend>
+        <legend id="fieldset">My Education Details</legend>
     
     <table border="1">
- <thead>
+ <thead id="headContent">
 <tr>
     <th>Degree</th>
     <th>University/Board</th>
@@ -20,7 +44,7 @@
     <th>Percentage</th>
 </tr>
 </thead>
-        <tbody>
+        <tbody id="myDetails">
             <tr>
                 <td>BE</td>
                 <td>University of Pune (SFPU)</td>
